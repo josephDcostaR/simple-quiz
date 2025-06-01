@@ -12,7 +12,7 @@ Projeto **Frontend** desenvolvido para fins de estudo, com foco em manipulação
 - **CSS**
 - **JavaScript**
 - **JSON** (para armazenamento das perguntas)
-- **Vercel** (para deploy)
+- **GitHub Pages** (para deploy)
 
 ## ✅ Funcionalidades
 
@@ -24,7 +24,8 @@ Projeto **Frontend** desenvolvido para fins de estudo, com foco em manipulação
 
 ## 📦 Deploy
 
-O projeto está hospedado na **Vercel**.
+O projeto está hospedado na **GitHub Pages**:  
+👉 [Acesse aqui](https://josephdcostar.github.io/simple-quiz/)
 
 ## 👨‍💻 Objetivo
 

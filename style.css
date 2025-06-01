@@ -1,3 +1,4 @@
+/* Estilo base - Desktop */
 *{
     margin: 0;
     padding: 0;
@@ -79,4 +80,46 @@ body{
 
 .incorrect {
     background: #ff9393;
+}
+
+/* Responsividade - Tablet */
+@media (max-width: 768px) {
+    .app {
+        padding: 20px;
+        margin: 50px auto 0;
+    }
+
+    .app h1 {
+        font-size: 20px;
+    }
+
+    .quiz h2 {
+        font-size: 16px;
+    }
+}
+
+
+/* Responsividade - Celular */
+@media (max-width: 480px) {
+    .app {
+        padding: 15px;
+        margin: 30px auto 0;
+    }
+
+    .app h1 {
+        font-size: 18px;
+    }
+
+    .quiz h2 {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #next-btn {
+        width: 100%;
+    }
 }

@@ -1,49 +1,17 @@
-import { questions } from "./questions";
+let questions = [];
 
-// const questions = [
-//     {
-//         question: "Qual o animal com o maior comprimento na Terra ?",
-//         answers: [
-//             {text: "Tubarrão", correct: false},
-//             {text: "Baleia Azul", correct: true},
-//             {text: "Elefante", correct: false},
-//             {text: "Girrafa", correct: false},
-//         ]
-//     },
-//     {
-//         question: "Qual planeta é conhecido como o Planeta Vermelho?",
-//         answers: [
-//             {text: "Vênus", correct: false},
-//             {text: "Marte", correct: true},
-//             {text: "Júpiter", correct: false},
-//             {text: "Saturno", correct: false},
-//         ]
-//     },
-//     {
-//         question: "Quem escreveu a peça 'Romeu e Julieta'?",
-//         answers: [
-//             {text: "William Shakespeare", correct: true},
-//             {text: "Machado de Assis", correct: false},
-//             {text: "Carlos Drummond de Andrade", correct: false},
-//             {text: "Fernando Pessoa", correct: false},
-//         ]
-//     },
-//     {
-//         question: "Qual desses itens abaixo não é considerada uma linguagem de programação?",
-//         answers: [
-//             {text: "Python", correct: false},
-//             {text: "Cshap", correct: false},
-//             {text: "Java", correct: false},
-//             {text: "HTML", correct: true},
-//         ]
-//     }
-    
-// ];
+fetch('./questions.json')
+  .then(response => response.json())
+  .then(data => {
+    questions = data;
+    startQuiz();
+  })
+  .catch(err => console.error("Erro ao carregar perguntas:", err));
+
 
 const questionElement = document.getElementById("question");
 const  answerButtons= document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-
 
 let currentquestionIndex = 0;
 let score = 0; 

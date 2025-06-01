@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Qual o maior oceano do mundo?",
+        "answers": [
+            {"text": "Atlântico", "correct": false},
+            {"text": "Índico", "correct": false},
+            {"text": "Ártico", "correct": false},
+            {"text": "Pacífico", "correct": true}
+        ]
+    },
+    {
+        "question": "Quem pintou a Mona Lisa?",
+        "answers": [
+            {"text": "Leonardo da Vinci", "correct": true},
+            {"text": "Michelangelo", "correct": false},
+            {"text": "Pablo Picasso", "correct": false},
+            {"text": "Vincent van Gogh", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o planeta mais próximo do Sol?",
+        "answers": [
+            {"text": "Vênus", "correct": false},
+            {"text": "Marte", "correct": false},
+            {"text": "Terra", "correct": false},
+            {"text": "Mercúrio", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual é a capital da França?",
+        "answers": [
+            {"text": "Londres", "correct": false},
+            {"text": "Paris", "correct": true},
+            {"text": "Roma", "correct": false},
+            {"text": "Berlim", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem desenvolveu a teoria da relatividade?",
+        "answers": [
+            {"text": "Isaac Newton", "correct": false},
+            {"text": "Albert Einstein", "correct": true},
+            {"text": "Galileu Galilei", "correct": false},
+            {"text": "Nikola Tesla", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a montanha mais alta do mundo?",
+        "answers": [
+            {"text": "K2", "correct": false},
+            {"text": "Everest", "correct": true},
+            {"text": "Kilimanjaro", "correct": false},
+            {"text": "Aconcágua", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o maior país do mundo em área territorial?",
+        "answers": [
+            {"text": "Canadá", "correct": false},
+            {"text": "China", "correct": false},
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Rússia", "correct": true}
+        ]
+    },
+    {
+        "question": "Qual destes animais é um mamífero?",
+        "answers": [
+            {"text": "Cobra", "correct": false},
+            {"text": "Tubarão", "correct": false},
+            {"text": "Golfinho", "correct": true},
+            {"text": "Papagaio", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o primeiro homem a pisar na Lua?",
+        "answers": [
+            {"text": "Neil Armstrong", "correct": true},
+            {"text": "Buzz Aldrin", "correct": false},
+            {"text": "Yuri Gagarin", "correct": false},
+            {"text": "Alan Shepard", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o idioma mais falado no mundo?",
+        "answers": [
+            {"text": "Inglês", "correct": false},
+            {"text": "Espanhol", "correct": false},
+            {"text": "Chinês mandarim", "correct": true},
+            {"text": "Hindi", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos lados tem um hexágono?",
+        "answers": [
+            {"text": "5", "correct": false},
+            {"text": "6", "correct": true},
+            {"text": "7", "correct": false},
+            {"text": "8", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o rio mais longo do mundo?",
+        "answers": [
+            {"text": "Amazonas", "correct": true},
+            {"text": "Nilo", "correct": false},
+            {"text": "Yangtzé", "correct": false},
+            {"text": "Mississippi", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a moeda oficial do Japão?",
+        "answers": [
+            {"text": "Won", "correct": false},
+            {"text": "Yen", "correct": true},
+            {"text": "Yuan", "correct": false},
+            {"text": "Baht", "correct": false}
+        ]
+    },
+    {
+        "question": "Em que continente fica o Deserto do Saara?",
+        "answers": [
+            {"text": "Ásia", "correct": false},
+            {"text": "África", "correct": true},
+            {"text": "América", "correct": false},
+            {"text": "Europa", "correct": false}
+        ]
+    },
+    {
+        "question": "Quem foi o autor de 'Dom Quixote'?",
+        "answers": [
+            {"text": "William Shakespeare", "correct": false},
+            {"text": "Miguel de Cervantes", "correct": true},
+            {"text": "Fernando Pessoa", "correct": false},
+            {"text": "Eça de Queiroz", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o símbolo químico do ouro?",
+        "answers": [
+            {"text": "Au", "correct": true},
+            {"text": "Ag", "correct": false},
+            {"text": "Pb", "correct": false},
+            {"text": "Fe", "correct": false}
+        ]
+    },
+    {
+        "question": "Quantos segundos há em um minuto?",
+        "answers": [
+            {"text": "60", "correct": true},
+            {"text": "100", "correct": false},
+            {"text": "90", "correct": false},
+            {"text": "45", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é o maior deserto do mundo?",
+        "answers": [
+            {"text": "Saara", "correct": false},
+            {"text": "Antártico", "correct": true},
+            {"text": "Kalahari", "correct": false},
+            {"text": "Gobi", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a fórmula química da água?",
+        "answers": [
+            {"text": "H2O", "correct": true},
+            {"text": "CO2", "correct": false},
+            {"text": "O2", "correct": false},
+            {"text": "NaCl", "correct": false}
+        ]
+    },
+    {
+        "question": "Qual é a capital do Canadá?",
+        "answers": [
+            {"text": "Toronto", "correct": false},
+            {"text": "Vancouver", "correct": false},
+            {"text": "Montreal", "correct": false},
+            {"text": "Ottawa", "correct": true}
+        ]
+    }
+]
